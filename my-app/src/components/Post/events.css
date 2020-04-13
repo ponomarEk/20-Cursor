@@ -1,0 +1,17 @@
+.events div{
+    display: inline;
+    margin :45px;
+}
+span{
+    padding-left: 5px;
+    font-size: 20px;
+}
+.events div:first-child{
+    margin-left: 40px;
+}
+.events{
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 0;
+    padding-bottom: 20px;
+}
