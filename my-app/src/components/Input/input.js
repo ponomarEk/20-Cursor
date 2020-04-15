@@ -4,8 +4,8 @@ export default class Input extends Component{
 
     state={
         author:'',
-        imageUrl:this.props.image,
-        textContent:this.props.text
+        imageUrl:'',
+        textContent:''
     }
 
     onChangeImageUrl=(e)=>{
@@ -31,6 +31,11 @@ export default class Input extends Component{
                             image:this.state.imageUrl,
                             text:this.state.textContent
                         });
+                        this.setState({
+                            author:'dscs',
+                            imageUrl:'',
+                            textContent:''
+                        })
                     }
                 }
         return(
