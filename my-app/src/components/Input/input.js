@@ -32,7 +32,6 @@ export default class Input extends Component{
                             text:this.state.textContent
                         });
                         this.setState({
-                            author:'dscs',
                             imageUrl:'',
                             textContent:''
                         })
