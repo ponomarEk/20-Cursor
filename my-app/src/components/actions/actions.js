@@ -1,22 +1,9 @@
-import { CHANGE_TEXT,CHANGE_AUTHOR,CHANGE_IMAGE, CHANGE_LIKE, CHANGE_REPOST, CHANGE_COMMENT } from '../../App'
+import { ADD_DATA, CHANGE_LIKE, CHANGE_REPOST, CHANGE_COMMENT } from '../../App'
 
-export const changeText=(newText)=>{
+export const addData=(newData)=>{
     return{
-        type:CHANGE_TEXT,
-        payload:newText
-    }
-}
-export const changeImage=(newImage)=>{
-    return{
-        type:CHANGE_IMAGE,
-        payload:newImage
-    }
-}
-
-export const changeAuthor=(newAuthor)=>{
-    return{
-        type:CHANGE_AUTHOR,
-        payload:newAuthor
+        type:ADD_DATA,
+        payload:newData
     }
 }
 
